@@ -1,0 +1,365 @@
+/*
+Theme Name: Lovely Interiors
+Version: 1
+Theme URI: http://interiors.lovely.net/
+Description: A design for my interior design blog.
+Author: Cristina Robinson
+*/
+
+/*****************************************************
+1. BODY code
+2. HEADER code
+3. SIDEBAR code
+4. CONTENT code
+5. WORDPRESS code
+6. FOOTER code
+*****************************************************/
+
+/* ----------- Main Body ----------- */
+
+body {
+	background: #aaa19c url(images/bg_repeat.png);
+	color:#000;
+	font: 82%/170% Georgia, "Times New Roman", Times, serif;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+#container {
+	background: url(images/container.png) repeat-y top center;
+	margin: 0 auto;
+	padding:0;
+	text-align:left;
+	width:960px;
+}
+
+abbr {
+	border-bottom: 1px dotted #333;
+	cursor: help;
+}
+
+.rightimg { 
+	float:right; 
+	margin: 0 0 15px 15px; 
+}
+
+.right {
+	text-align:right;
+}
+
+.leftimg { 
+	float:left; 
+	margin: 0 15px 15px 0; 
+}
+
+.center {
+	text-align:center;
+}
+
+.middle {
+	vertical-align: middle;
+}
+
+img {
+	border:0px;
+}
+
+/* ----------- Header ----------- */
+
+#header {
+	height:301px;
+	width:960px;
+}
+
+/* ----------- Sidebar ----------- */
+
+#sidebar {
+	float:right;
+	padding:10px 15px 5px 10px;
+	text-align:justify;
+	width:270px;	
+}
+
+#sidebar a:link,#sidebar a:visited,#sidebar a:active {
+	color:#fff;
+	text-decoration:none;
+}
+
+#sidebar a:hover {
+	color: #000;
+	text-decoration:none;
+}
+
+
+h2 {
+	border-bottom: #fff 4px solid;
+	font-family:Verdana, Geneva, sans-serif;
+	text-shadow: 1px 1px #fff;
+	text-transform:uppercase;
+}
+
+h3 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.8em;
+	text-transform:uppercase;
+}
+
+ul.side {
+	list-style : none;
+	padding:5px;
+	margin: 0 5px 0 5px;
+}
+
+ul.side li {
+background-image: url(images/bullet.png);
+background-position: 0px 2px;
+background-repeat: no-repeat;
+padding-left: 34px; 
+}
+
+ul.side li a {
+	
+	color:#000;
+	display : block;
+	margin : 0;
+	padding:5px 0 5px 0;		
+	text-decoration : none;
+}
+
+ul.side li a:hover {
+	color: #000;
+}
+
+
+/* ----------- Content ----------- */
+
+#content {
+	float:left;
+	padding:10px 20px 5px 20px;
+	text-align:justify;
+	width:620px;
+}
+
+#content a:link,#content a:visited,#content a:active {
+	color:#000;
+	text-decoration:none;
+}
+
+#content a:hover {
+	color:#000;
+	text-decoration:none;
+}
+
+.subject, h1 {
+	color:#e3b74c;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1.6em;
+	font-weight:bold;
+	text-shadow:2px 2px #000;
+	text-transform:uppercase;
+}
+
+.subject a:hover {
+	color:#fff;
+}
+
+h4 {
+	color:#e3b74c;
+	text-transform:normal;
+}
+
+/* ----------- Wordpress ----------- */
+
+.blockquote {
+font-style:italic;
+padding:20px;
+color: #000;
+opacity:0.4;
+border: 1px solid #575047;
+background-color:#AAA19C;
+}
+
+.browse {
+	clear: both;
+	padding:5px;
+	width:610px;	
+}
+
+.previous {
+	float: left;
+}
+
+.next {
+	float: right;
+}
+
+.older {
+	float:left;
+}
+
+.newer {
+	float:right;
+}
+
+.date {
+	text-transform:uppercase;
+	text-align:right;
+}
+
+.browse {
+	clear: both;
+	padding:5px;
+	width:580px;	
+}
+
+.previous {
+	float: left;
+}
+.next {
+	float: right;
+}
+
+.older {
+	float:left;
+}
+
+.newer {
+	float:right;
+}
+
+/* Begin Comments*/
+
+.closedcomments {
+	padding:5px;
+	font-size:10px;
+	text-align:center;
+}
+
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 10px;
+	padding: 5px 5px 10px 10px;
+	list-style: none;
+	}
+	
+.commentlist li ul li { 
+	list-style : none;
+	padding:10px;
+	margin: 0 5px 0 5px; 
+}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+}
+
+.children { 
+	padding: 0; 
+}
+
+#commentform p {
+	margin: 5px 0;
+}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+}
+
+.commentlist li ul li {
+	font-size: 1em;
+}
+
+.commentlist li {
+	font-weight: bold;
+}
+
+.commentlist li .avatar { 
+	float: right;
+	border: 1px solid #eee;
+	padding: 2px;
+	background: #fff;
+}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+}
+
+#commentform p {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentmetadata {
+	font-weight: normal;
+}
+	
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+}
+
+#commentform {
+	margin: 5px 10px 0 0;
+}
+
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+}
+	
+#respond:after {
+		content: "."; 
+	    display: block; 
+	    height: 0; 
+	    clear: both; 
+	    visibility: hidden;
+}
+	
+#commentform #submit {
+	margin: 0 0 5px auto;
+	float: right;
+}
+
+/* ----------- Footer ----------- */
+
+#footer {
+    clear:both;
+    margin-top:-20px;
+    padding-bottom:3px;
+    padding-top:10px;
+    width:620px;
+}
+
+#footer a:link,#footer a:visited,#footer a:active {
+	color:#e3b74c;
+	text-decoration:none;
+}
+
+#footer a:hover {
+	color:#000;
+	text-decoration:none;
+}
